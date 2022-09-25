@@ -1,0 +1,109 @@
+:root {
+  --first-color: #850e35;
+  --second-color: #ee6983;
+  --third-color: #ffc4c4;
+  --fourth-color: #fff5e4;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --navbar-color: rgba(255, 196, 196, 1);
+}
+
+body {
+  margin: 0 auto;
+  background-color: var(--fourth-color);
+}
+
+h1 {
+  font-size: 90px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  margin: 0 auto;
+}
+
+h3 {
+  text-align: center;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+h4 {
+  text-align: left;
+  font-size: 30px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin-top: 80px;
+}
+
+p {
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 1.3;
+  font-family: "Kalam", cursive;
+}
+
+.back-homepage {
+  color: var(--second-color);
+}
+
+.link-pages {
+  display: flex;
+  margin: 40px;
+  justify-content: center;
+}
+
+.link-pages a,
+.app-links a {
+  margin: 15px;
+  padding: 18px;
+  border-radius: 5px;
+  border: 1px solid var(--second-color);
+  box-shadow: var(--box-shadow);
+}
+
+.prior-link {
+  background-color: var(--second-color);
+  color: #ffffff;
+}
+
+.about-link {
+  color: var(--second-color);
+}
+
+.name {
+  font-family: "Kalam", cursive;
+}
+
+.navbar-brand {
+  color: var(--first-color);
+  font-weight: 500;
+}
+
+.navbar-theme {
+  background-color: var(--navbar-color);
+}
+
+.email-adress {
+  color: var(--second-color);
+  font-size: 25px;
+  text-align: center;
+}
+
+.email-adress:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin: 10px auto;
+}
