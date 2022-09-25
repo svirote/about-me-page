@@ -97,7 +97,6 @@ p {
 .email-adress {
   color: var(--second-color);
   font-size: 25px;
-  text-align: center;
 }
 
 .email-adress:hover {
