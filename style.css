@@ -1,10 +1,9 @@
 :root {
-  --first-color: #850e35;
-  --second-color: #ee6983;
-  --third-color: #ffc4c4;
-  --fourth-color: #fff5e4;
+  --first-color: #d77fa1;
+  --second-color: #baabda;
+  --third-color: #d6e5fa;
+  --fourth-color: #fff9f9;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  --navbar-color: rgba(255, 196, 196, 1);
 }
 
 body {
@@ -91,7 +90,7 @@ p {
 }
 
 .navbar-theme {
-  background-color: var(--navbar-color);
+  background-color: var(--third-color);
 }
 
 .email-adress {
