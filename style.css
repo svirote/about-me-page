@@ -73,11 +73,23 @@ p {
 
 .prior-link {
   background-color: var(--second-color);
-  color: #ffffff;
+  color: var(--fourth-color);
+  transition: all 150ms ease-in-out;
 }
 
-.about-link {
+.prior-link:hover {
+  background-color: var(--second-color);
+  color: var(--fourth-color);
+  font-weight: 500;
+}
+
+.secondary-link {
   color: var(--second-color);
+}
+
+.secondary-link:hover {
+  color: var(--second-color);
+  font-weight: 500;
 }
 
 .name {
@@ -104,4 +116,19 @@ p {
 
 footer {
   margin: 10px auto;
+}
+
+footer .icon-links a {
+  margin: 0 20px;
+  color: var(--first-color);
+  background-color: var(--third-color);
+  border-radius: 50%;
+  padding: 5px 10px;
+  font-size: 20px;
+  transition: all 150ms ease-in-out;
+}
+
+footer .icon-links a:hover {
+  color: var(--fourth-color);
+  background-color: var(--first-color);
 }
