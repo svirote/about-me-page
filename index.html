@@ -40,39 +40,7 @@
     <title>Suelen Virote</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-theme fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">@suvirote</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">
-                Home
-              </a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="about-me.html">About me</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="about-me.html#contact">Contact me</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <header id="navigation"></header>
 
     <div class="container">
       <h2>👋 Hi, I am</h2>
@@ -83,64 +51,26 @@
       </h3>
 
       <div class="link-pages">
-        <a class="prior-link" href="about-me.html#contact">Contact me</a>
+        <a class="prior-link" href="projects.html#contact">Contact me</a>
         <a class="secondary-link" href="about-me.html">About me</a>
       </div>
     </div>
 
-    <div class="container">
-      <div class="row mt-5">
-        <div class="col-md-6">
-          <img src="images/yoga.png" class="img-fluid" />
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="images/yoga.png" class="img-fluid shadow rounded mb-4" />
         </div>
-        <div class="col-md-6 app-links">
-          <h4 class="mt-2 text-right">Yoga App (App 1)</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
-          </p>
-          <a class="prior-link" href="about-me.html#contact">Lunch App 1</a>
+
+        <div class="col-md-4">
+          <img src="images/weather.png" class="img-fluid shadow rounded mb-4" />
         </div>
-      </div>
-      <div class="row mt-5">
-        <div class="col-md-6 app-links">
-          <h4 class="mt-2 text-right">Weather app (App 2)</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
-          </p>
-          <a
-            class="prior-link"
-            href="https://su-weather-app.netlify.app/"
-            target="_blank"
-            >Lunch App 2</a
-          >
-        </div>
-        <div class="col-md-6">
-          <img src="images/weather.png" class="img-fluid" />
-        </div>
-      </div>
-      <div class="row mt-5">
-        <div class="col-md-6">
-          <img src="images/yogurt.png" class="img-fluid" />
-        </div>
-        <div class="col-md-6 app-links">
-          <h4 class="mt-2 text-right">Yogurt app (App 3)</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
-          </p>
-          <a class="prior-link" href="about-me.html#contact">Lunch App 3</a>
+
+        <div class="col-md-4">
+          <img src="images/yogurt.png" class="img-fluid shadow rounded mb-4" />
         </div>
       </div>
     </div>
-    <br />
 
     <h3>
       <i class="fa-solid fa-lightbulb"></i>
@@ -150,29 +80,8 @@
       Let's work together and build it.
     </h3>
 
-    <footer class="text-center">
-      <div class="icon-links d-flex justify-content-center">
-        <a
-          href="https://github.com/svirote/"
-          target="_blank"
-          title="GitHub Suelen Virote"
-        >
-          <i class="fa-brands fa-github"></i>
-        </a>
+    <footer id="footer-text" class="text-center mt-4"></footer>
 
-        <a href="#" target="_blank" title="LinkedIn">
-          <i class="fa-brands fa-linkedin-in"></i>
-        </a>
-      </div>
-      <br />
-      This project was coded by Suelen Virote, and it's
-      <a
-        href="https://github.com/svirote/about-me-page"
-        target="_blank"
-        title="GitHub Suelen Virote"
-      >
-        open-sourced
-      </a>
-    </footer>
+    <script src="src/index.js"></script>
   </body>
 </html>
