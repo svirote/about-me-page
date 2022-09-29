@@ -35,39 +35,82 @@
     ></script>
 
     <!-- CSS folder -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/src/style.css" />
 
     <title>Suelen Virote</title>
   </head>
   <body>
-    <header id="navigation"></header>
+    <header id="navigation">
+      <nav class="navbar navbar-expand-lg navbar-theme fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">@suvirote</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/index.html"
+                >
+                  Home
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="/about-me.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/projects.html#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 
     <div class="container">
       <h2>👋 Hi, I am</h2>
       <h1 class="name">Suelen Virote</h1>
       <h3>
-        <img src="br.svg" width="18 px" />
+        <img src="/images/br.svg" width="18 px" />
         Trying to became a developper, based in Europe
       </h3>
 
       <div class="link-pages">
         <a class="prior-link" href="projects.html#contact">Contact me</a>
-        <a class="secondary-link" href="about-me.html">About me</a>
+        <a class="secondary-link" href="/about-me.html">About me</a>
       </div>
     </div>
 
     <div class="container mt-4">
       <div class="row">
         <div class="col-md-4">
-          <img src="images/yoga.png" class="img-fluid shadow rounded mb-4" />
+          <img src="/images/yoga.png" class="img-fluid shadow rounded mb-4" />
         </div>
 
         <div class="col-md-4">
-          <img src="images/weather.png" class="img-fluid shadow rounded mb-4" />
+          <img
+            src="/images/weather.png"
+            class="img-fluid shadow rounded mb-4"
+          />
         </div>
 
         <div class="col-md-4">
-          <img src="images/yogurt.png" class="img-fluid shadow rounded mb-4" />
+          <img src="/images/yogurt.png" class="img-fluid shadow rounded mb-4" />
         </div>
       </div>
     </div>
@@ -82,6 +125,6 @@
 
     <footer id="footer-text" class="text-center mt-4"></footer>
 
-    <script src="src/index.js"></script>
+    <script src="/src/index.js"></script>
   </body>
 </html>
