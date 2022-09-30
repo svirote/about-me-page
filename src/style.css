@@ -50,6 +50,7 @@ p {
   font-size: 18px;
   line-height: 1.3;
   font-family: "Kalam", cursive;
+  margin: 0;
 }
 
 .back-homepage {
@@ -62,8 +63,7 @@ p {
   justify-content: center;
 }
 
-.link-pages a,
-.app-links a {
+.link-pages a {
   margin: 15px;
   padding: 18px;
   border-radius: 5px;
@@ -74,6 +74,12 @@ p {
 .prior-link {
   background-color: var(--second-color);
   color: var(--fourth-color);
+  transition: all 150ms ease-in-out;
+}
+
+.projects-link {
+  color: var(--second-color);
+  font-weight: 600;
   transition: all 150ms ease-in-out;
 }
 
@@ -105,6 +111,10 @@ p {
   background-color: var(--third-color);
 }
 
+.build-with {
+  max-width: 80%;
+}
+
 .email-adress {
   color: var(--second-color);
   font-size: 25px;
@@ -133,8 +143,20 @@ footer .icon-links a:hover {
   background-color: var(--first-color);
 }
 
+.list-technologies {
+  border: 1px solid var(--second-color);
+  border-radius: 5px;
+  margin: 4px;
+  display: inline-block;
+  padding: 5px 8px;
+}
+
 .polaroid img {
   max-width: 180px;
   margin: 10px;
   padding: 0;
+}
+
+ul {
+  list-style: none;
 }
