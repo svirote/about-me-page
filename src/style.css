@@ -125,7 +125,9 @@ p {
 }
 
 .build-with {
-  max-width: 80%;
+  max-width: 85%;
+  font-size: 12px;
+  font-weight: 500;
 }
 
 .email-adress {
