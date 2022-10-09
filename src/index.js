@@ -16,16 +16,16 @@ function footer() {
           <i class="fa-brands fa-linkedin-in"></i>
         </a>
       </div>
-      <br />
-
-      This project was coded by Suelen Virote, and it's
-      <a
-        href="https://github.com/svirote/about-me-page"
-        target="_blank"
-        title="GitHub Suelen Virote"
-      >
-        open-sourced
-      </a>
+      <div class="mt-2">
+        This project was coded by Suelen Virote, and it's
+        <a
+          href="https://github.com/svirote/about-me-page"
+          target="_blank"
+          title="GitHub Suelen Virote"
+        >
+          open-sourced
+        </a>
+      </div>
 
       <br />
     `;
