@@ -173,6 +173,10 @@ footer .icon-links a:hover {
   padding: 0;
 }
 
+.starter-image {
+  height: 200px;
+}
+
 ul {
   list-style: none;
 }
