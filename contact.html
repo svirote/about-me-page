@@ -87,33 +87,30 @@
     <div class="container">
       <div class="row">
         <div class="col mt-4">
-          <h3>
+          <h3 class="mt-4">
             <i class="fa-solid fa-lightbulb"></i>
             <i class="fa-regular fa-lightbulb"></i>
             Have an idea in mind?
             <br />
             Let's work together and build it.
           </h3>
+          <br />
           <p>
-            I'm interested in getting experience and developing my skills.
+            I am interested in getting experience and developing my skills.
             <br />I consider both freelance and offline opportunities.
           </p>
-
-          <div class="contact text-center">
-            <h2 id="contact">📮 Contact me</h2>
-            <a class="email-adress" href="suelen@virote.io">
-              suelen@virote.io
-            </a>
-          </div>
+          <br />
 
           <br />
         </div>
         <div class="col">
-          <div class="contact-form">
-            <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label"
+          <div class="row align-items-center contact-form">
+            <div class="col-auto">
+              <label for="formControlInput1" class="col-form-label"
                 >Your email:</label
               >
+            </div>
+            <div class="col-auto">
               <input
                 type="email"
                 class="form-control"
@@ -121,17 +118,21 @@
                 placeholder="name@example.com"
               />
             </div>
-            <div class="mb-3">
+
+            <div class="mt-3 mb-3">
               <label for="exampleFormControlTextarea1" class="form-label"
                 >Your message:</label
               >
               <textarea
                 class="form-control"
                 id="exampleFormControlTextarea1"
-                rows="3"
+                rows="4"
               ></textarea>
             </div>
-            <button type="submit" class="btn">Send</button>
+
+            <div class="d-grid d-flex justify-content-end">
+              <button type="submit" class="send-message">Send</button>
+            </div>
           </div>
         </div>
       </div>

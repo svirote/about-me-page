@@ -4,6 +4,15 @@ function footer() {
   footerText.innerHTML =
     footerText.innerHTML +
     ` <div class="icon-links d-flex justify-content-center">
+
+        <a
+          href="mailto:suvirote@yahoo.com.br"
+          target="_blank"
+          title="E-mail"
+        >
+        <i class="fa-solid fa-envelope"></i>
+        </a>     
+
         <a
           href="https://github.com/svirote/"
           target="_blank"
