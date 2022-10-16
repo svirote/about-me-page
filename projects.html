@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="See the projects of Suelen, and learn more about her work in progress."
+      content="See the Suelen's projects, and learn more about her work in progress."
     />
+
+    <title>See the Suelen's projects | suvirote</title>
 
     <!-- Font Awesome -->
     <script
@@ -40,8 +42,6 @@
 
     <!-- CSS folder -->
     <link rel="stylesheet" href="/src/style.css" />
-
-    <title>See the projects of Suelen | suvirote</title>
   </head>
   <body>
     <header id="navigation">
@@ -69,22 +69,34 @@
           >
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="/index.html"> Home </a>
+                <a class="nav-link" href="/index.html" title="Homepage">
+                  Home
+                </a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="/about-me.html">About</a>
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="/about-me.html"
+                  title="About Suelen"
+                >
+                  About
+                </a>
               </li>
               <li class="nav-item">
                 <a
                   class="nav-link active-page"
-                  aria-current="page"
                   href="/projects.html"
-                  >Projects</a
+                  title="Suelen's work"
                 >
+                  Projects
+                </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/contact.html">Contact</a>
+                <a class="nav-link" href="/contact.html" title="Contact Suelen">
+                  Contact
+                </a>
               </li>
             </ul>
           </div>

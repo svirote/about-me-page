@@ -21,7 +21,11 @@ function footer() {
           <i class="fa-brands fa-github"></i>
         </a>
 
-        <a href="#" target="_blank" title="LinkedIn">
+        <a
+          href="https://www.linkedin.com/in/suelenvirote/"
+          target="_blank"
+          title="Linkedin Suelen Virote"
+        >
           <i class="fa-brands fa-linkedin-in"></i>
         </a>
       </div>
