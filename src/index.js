@@ -8,7 +8,7 @@ function footer() {
         <a
           href="mailto:suvirote@yahoo.com.br"
           target="_blank"
-          title="E-mail"
+          title="E-mail me"
         >
         <i class="fa-solid fa-envelope"></i>
         </a>     
