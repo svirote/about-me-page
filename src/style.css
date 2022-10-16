@@ -114,6 +114,10 @@ footer .icon-links a:hover {
   box-shadow: 0 4px 9px rgba(0, 0, 0, 0.2);
 }
 
+.home-presentation {
+  max-width: 400px;
+}
+
 .link-pages {
   display: flex;
   margin: 2px;
@@ -122,7 +126,7 @@ footer .icon-links a:hover {
 
 .link-pages a {
   margin: 15px;
-  padding: 18px;
+  padding: 12px;
   border-radius: 5px;
   border: 1px solid var(--second-color);
   box-shadow: var(--box-shadow);
@@ -146,7 +150,7 @@ footer .icon-links a:hover {
 }
 
 p {
-  padding: 15px;
+  padding: 12px;
   border-radius: 5px;
   font-size: 18px;
   line-height: 1.3;
