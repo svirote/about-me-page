@@ -158,10 +158,23 @@ p {
   margin: 0;
 }
 
+.polaroid {
+  padding: 4px;
+  background-color: #ffffff;
+  box-shadow: var(--box-shadow);
+  width: 155px;
+}
+
 .polaroid img {
   max-width: 180px;
-  margin: 10px;
+  height: 200px;
+  margin: 0;
   padding: 0;
+}
+.polaroid p {
+  padding: 0;
+  max-width: 130px;
+  margin: 0 auto;
 }
 
 .prior-link {
