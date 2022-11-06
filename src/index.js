@@ -55,7 +55,6 @@ form.addEventListener("submit", (event) => {
   submitButton.disabled = true;
   submitButton.innerHTML = "Loading...";
   event.preventDefault();
-  console.log(form);
 
   fetch(scriptURL, { method: "POST", body: new FormData(form) })
     .then(function () {
