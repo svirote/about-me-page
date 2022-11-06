@@ -236,6 +236,10 @@ p {
   font-weight: 700;
 }
 
+.signature {
+  font-family: "Kalam", cursive;
+}
+
 ul {
   list-style: none;
 }

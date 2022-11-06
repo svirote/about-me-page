@@ -45,3 +45,40 @@ function footer() {
 }
 
 footer();
+
+const form = document.querySelector("#contact-message");
+const submitButton = document.querySelector(".send-message");
+const scriptURL =
+  "https://script.google.com/macros/s/AKfycbzNxPulIQTrTmRTGBNhXPnPp4jfKUtUV2I20i9AF4uE7VQuUSoS4CcbkfIFk-kS-FY4qA/exec";
+
+form.addEventListener("submit", (event) => {
+  submitButton.disabled = true;
+  submitButton.innerHTML = "Loading...";
+  event.preventDefault();
+  console.log(form);
+
+  fetch(scriptURL, { method: "POST", body: new FormData(form) })
+    .then(function () {
+      form.innerHTML = `<div class="mx-auto form-control mt-4" style="max-width: 450px">
+            <p>
+              Your message was successfully send.<br />
+              I'll be contacting you as soon as possible.<br />
+            </p>
+
+            <div class="signature text-end">Suelen</div>
+          </div>
+      `;
+    })
+
+    .catch(() => {
+      form.innerHTML = `<div class="mx-auto" style="max-width: 450px">
+            <p>
+              Oh no, something went wrong.<br />
+              please reload the page and try again.<br />
+            </p>
+
+            <div class="signature text-end">Suelen</div>
+          </div>
+      `;
+    });
+});

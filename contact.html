@@ -141,15 +141,22 @@
           <br />
         </div>
         <div class="col-md">
-          <div class="row align-items-center contact-form">
+          <form
+            id="contact-message"
+            class="row align-items-center contact-form"
+            autocomplete="off"
+          >
             <div class="col-auto">
               <label for="user-email" class="col-form-label">Your email:</label>
             </div>
+
             <div class="col-auto">
               <input
+                name="Email"
                 type="email"
                 class="form-control"
                 id="user-email"
+                required="required"
                 placeholder="name@example.com"
               />
             </div>
@@ -157,8 +164,10 @@
             <div class="mt-3 mb-3">
               <label for="user-message" class="form-label">Your message:</label>
               <textarea
+                name="Message"
                 class="form-control"
                 id="user-message"
+                required="required"
                 rows="4"
               ></textarea>
             </div>
@@ -166,7 +175,7 @@
             <div class="d-grid d-flex justify-content-end">
               <button type="submit" class="send-message">Send</button>
             </div>
-          </div>
+          </form>
         </div>
       </div>
     </div>
