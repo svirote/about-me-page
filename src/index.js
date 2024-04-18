@@ -16,7 +16,7 @@ function footer() {
         <a
           href="https://github.com/svirote/"
           target="_blank"
-          title="GitHub Suelen Virote"
+          title="GitHub Suelen V."
         >
           <i class="fa-brands fa-github"></i>
         </a>
@@ -24,17 +24,17 @@ function footer() {
         <a
           href="https://www.linkedin.com/in/suelenvirote/"
           target="_blank"
-          title="Linkedin Suelen Virote"
+          title="Linkedin Suelen V."
         >
           <i class="fa-brands fa-linkedin-in"></i>
         </a>
       </div>
       <div class="mt-2">
-        This project was coded by Suelen Virote, and it's
+        This project was coded by suvirote, and it's
         <a
           href="https://github.com/svirote/about-me-page"
           target="_blank"
-          title="GitHub Suelen Virote"
+          title="GitHub Suelen V."
         >
           open-sourced
         </a>
